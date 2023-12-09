@@ -1,0 +1,75 @@
+.nav-text{
+    font-size:1.5rem;
+    font-weight:bold;
+
+}
+
+
+
+
+
+
+/* Apply these styles to your preview box element */
+.preview-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    height:60px;
+  }
+  
+  /* Add a bit of transition for a smooth update effect */
+  .preview-box {
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Adjust styles for when the user hovers over the preview box */
+  .preview-box:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  /* Apply these styles to your analytics section element */
+.analytics-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .analytics-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .analytics-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .analytics-label {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .analytics-value {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* Apply styles to specific data points */
+  .analytics-data:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
